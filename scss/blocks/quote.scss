@@ -1,0 +1,15 @@
+.quote {
+	background-color: $bg-blue;
+	padding: 142px 0;
+
+		&__text {
+			width: 770px;
+			margin: 0 auto;
+			text-align: center;
+			color: $birch;
+			font-size: 18px;
+			font-weight: 500;
+			line-height: 29px;
+			letter-spacing: 0.45px;
+		}
+}

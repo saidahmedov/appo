@@ -1,0 +1,38 @@
+.download {
+	padding: 125px 0 66px 0;
+
+		&__item {
+			background: url(../images/bg/Map.png) no-repeat;
+			height: 450px;
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		&__title {
+			color: $black;
+			font-size: 30px;
+			font-weight: 500;
+			line-height: 50px;
+			margin-bottom: 40px;
+
+			letter-spacing: 0.75px;
+		}
+		&__subtitle {
+			color: $black;
+			font-size: 17px;
+			font-weight: 300;
+			line-height: 29px;
+			letter-spacing: 0.42px;
+		}
+		a {
+			background-color: $birch;
+			color: $black;
+			&:hover {
+				background-color: $black;
+				border-color: $black;
+				color: $birch;
+			}
+		}
+}

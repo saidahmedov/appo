@@ -1,0 +1,56 @@
+.app {
+	background-color: $bg-white;
+	padding: 95px 0 0 0;
+
+		&__item {
+			display: flex;
+			justify-content: space-between;
+		}
+		&__content {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		&__title {
+			color: $black;
+			font-size: 40px;
+			font-weight: 500;
+			line-height: 50px;
+			letter-spacing: 1px;
+			margin-bottom: 40px;
+		}
+		&__text {
+			width: 457px;
+			color: $gray;
+			font-size: 17px;
+			font-weight: 300;
+			line-height: 29px;
+			letter-spacing: 0.42px;
+			margin-bottom: 65px;
+		}
+		&__link {
+			a {
+				margin-right: 20px;
+			}
+		}
+		&__button {
+			text-align: center;
+
+				.btn {
+					width: 370px;
+					color: $black;
+					font-size: 17px;
+					font-weight: 500;
+					text-transform: uppercase;
+					background-color: $birch;
+				
+					position: relative;
+					top: 25px;
+						&:hover {
+							background-color: $black;
+							border-color: $black;
+							color: $birch;
+						}
+				}
+		}
+}

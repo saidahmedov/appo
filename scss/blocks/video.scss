@@ -1,0 +1,22 @@
+.video {
+	background-color: $bg-blue;
+
+		&__item {
+			width: 700px;
+			margin: 0 auto;
+			text-align: center;
+			padding: 200px 0;
+		}
+		&__title {
+			color: #ffffff;
+			font-size: 17px;
+			font-weight: 300;
+			line-height: 40px;
+			text-transform: uppercase;
+			margin: 32px 0 50px 0;
+			letter-spacing: 0.42px;
+		}
+		&__text {
+			color: #fff;
+		}
+}

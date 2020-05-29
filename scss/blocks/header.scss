@@ -1,0 +1,20 @@
+.header {
+	padding: 26px 0;
+	background-color: $bg-blue;
+	border-bottom: 1px solid #4e596c;
+}
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__logo {
+	color: $birch;
+	font-size: 35px;
+	font-weight: 500;
+	line-height: 46.64px;
+	letter-spacing: 0.87px;
+}
+
+
+

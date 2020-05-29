@@ -1,0 +1,28 @@
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 30px;
+	margin-top: 60px;
+	
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 28.59px;
+	letter-spacing: 0.35px;
+	border-radius: 10px;
+
+	color: #fff;
+	border: 1px solid #fff;
+	background: none;
+	
+	transition: background-color .2s linear, color .2s linear, border-color .2s linear;
+
+		&:hover {
+			background-color: $birch;
+			color: #233148;
+			border-color: $birch;
+		}
+
+		+.btn {
+			margin-left: 25px;
+		}
+}

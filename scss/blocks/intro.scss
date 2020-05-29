@@ -1,0 +1,35 @@
+.intro {
+	background-color: $bg-blue;
+	padding-bottom: 30px;
+}
+
+.intro__inner {
+	display: flex;
+	justify-content: space-between;	
+}
+.intro__content {
+	width: 408px;
+	margin: 180px 0 0 60px;
+}
+.intro__title {
+	color: #ffffff;
+	font-size: 39px;
+	font-weight: 500;
+	line-height: 49.29px;
+	margin-bottom: 60px;
+	
+	letter-spacing: 0.99px;
+}
+.text {
+	color: $gray;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 28.59px;
+	
+	letter-spacing: 0.35px;
+}
+.intro__img {
+	position: relative;
+	top: 120px;
+	right: 80px;
+}
